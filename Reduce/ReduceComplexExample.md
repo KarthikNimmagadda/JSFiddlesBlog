@@ -33,7 +33,7 @@ booksHtml += "</ul>"
 
 document.getElementById("books").innerHTML = booksHtml;
 ```
-[jsfiddle](https://jsfiddle.net/karthik1239/ndupn7nb/1/)
+[jsfiddle](https://jsfiddle.net/karthik1239/ndupn7nb/2/)
 
 With this blog post, I conclude the series of blog posts on Reduce. 
 In my next blog post, I will start a series of Arrays.map.
