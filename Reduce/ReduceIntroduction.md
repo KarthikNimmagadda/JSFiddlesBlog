@@ -31,12 +31,12 @@ The same output can be attained using a reducer.
 var bankBalances = [100.9, 200.1, 300.0, 400.0];
 var totalMoney = bankBalances.reduce(
 function(accumulator, currentValue) {
-	return accumulator + currentValue
+	return accumulator + currentValue;
 });
 alert("Amount of money you have: " + totalMoney);//1001
 ```
 
-[jsfiddle](https://jsfiddle.net/karthik1239/u03s1aLr/)
+[jsfiddle](https://jsfiddle.net/karthik1239/u03s1aLr/2/)
 
 The accumulator accumulates the total amount of money. The current element is the element being processed in the array.
 
